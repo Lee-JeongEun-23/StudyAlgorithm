@@ -15,6 +15,10 @@ import java.util.*;
 	네 주사위에 적힌 숫자가 모두 다르다면 나온 숫자 중 가장 작은 숫자 만큼의 점수를 얻습니다.
 	네 주사위를 굴렸을 때 나온 숫자가 정수 매개변수 a, b, c, d로 주어질 때, 얻는 점수를 return 하는 solution 함수를 작성해 주세요.
  */
+
+// ★ 제곱 출력 : Math.pow(밑수,지수)
+// ★ 절대값 출력 : Math.abs(수식)
+
 public class Q5 {
 	public int solution(int a, int b, int c, int d) {
         int answer = 0;
