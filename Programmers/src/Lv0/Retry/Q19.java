@@ -1,4 +1,4 @@
-package Lv0;
+package Lv0.Retry;
 
 /*
 	< 코딩테스트 입문 : 문자열 밀기 >
