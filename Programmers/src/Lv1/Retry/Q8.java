@@ -10,6 +10,8 @@ package Lv1.Retry;
 	n은 1이상, 50000000000000 이하인 양의 정수입니다.
 */
 
+// ★ 제곱근 출력 : Math.sqrt()
+
 public class Q8 {
 	public long solution(long n) {
         long answer = -1;
