@@ -18,7 +18,7 @@ public class Q40 {
 	public int solution(int balls, int share) {
         int answer = 0;
         int[] temp = new int[balls-share];
-		for(int i = share+1; i <= balls; i++) {
+		for(int i = share+1; i <= balls; i++) { // n! / r!(n-r)! (조합공식)
 			temp[i-(share+1)] = i;
 		}
 		int[] temp2 = new int[balls-share];
