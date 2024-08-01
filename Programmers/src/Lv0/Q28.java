@@ -15,16 +15,13 @@ import java.util.*;
 	str은 알파벳으로 이루어진 문자열입니다.
 */
 
-// ★ String을 char로 변경 : charAt()
-// ★ char 대문자 : 65~90 / 소문자 : 97~122
-
 public class Q28 {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
         String[] arr = a.split("");
         for(int i = 0; i < arr.length; i++) {
-            if(arr[i].charAt(0) >= 65 &&  arr[i].charAt(0) <= 90) {
+            if((int)arr[i].charAt(0) >= 65 &&  (int)arr[i].charAt(0) <= 90) {
                 arr[i] = arr[i].toLowerCase();
             }else {
                 arr[i] = arr[i].toUpperCase();
